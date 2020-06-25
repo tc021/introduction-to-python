@@ -1,7 +1,5 @@
 import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
-pd.set_option('max_rows', 5)
-import numpy as np
-
-reviews = pd.read_csv("winemag-data-130k-v2.csv")
-print(reviews.dtypes)
+pekemon = pd.read_csv("")
