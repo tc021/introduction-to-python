@@ -1,12 +1,1 @@
-import sys
-
-sys.path.append(r"E:\Anaconda\Lib\site-packages")
-
-
-def function():
-    import chucknorris.quips as q
-
-    return q.random("Janet")
-
-
-print(function())
+pd.Series([30, 35, 40], index=['2015 Sales', '2016 Sales', '2017 Sales'], name='Product A')
